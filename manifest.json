@@ -1,0 +1,27 @@
+{
+  "name": "my-copy-widget",
+  "label": "My Copy Widget",
+  "widgetType": "layout",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "Esri R&D Center Beijing",
+  "description": "A layout container widget with screenshot capabilities.",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "supportInlineLayout": true,
+  "supportRepeat": false,
+  "properties": {
+    "hasSettingPage": true
+  },
+  "layouts": [
+    {
+      "name": "main",
+      "label": "Main",
+      "type": "InlineLayout"
+    }
+  ],
+  "translatedLocales": ["en"],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}
